@@ -1,0 +1,95 @@
+#menu_1 {
+  position: relative;
+  right: -8%;
+  top: 235px;
+  border: cyan solid 9px;
+  border-radius: 30px;
+  box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        0 10px 20px rgba(0, 0, 0, 0.2),
+        0 20px 40px rgba(0, 0, 0, 0.3),
+        0 20px 40px rgba(0, 0, 0, 0.4),
+        0 20px 40px rgba(0, 0, 0, 0.5);
+  height: 310px;
+  width: 315px;
+  background-color: rgb(0, 255, 255, 0.8);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('assets/back.jpg')
+}
+
+#title {
+  color: whitesmoke;
+  font-size: 25px;
+  text-shadow: 0 0 10px black, 0 0 12px black;
+  text-align: center;
+}
+
+#subtitle {
+  text-align: center;
+}
+
+#git {
+  text-align: center;
+}
+
+#yes {
+  border: green solid 3px;
+  border-radius: 20px;
+  font-size: 27px;
+  background-color: greenyellow;
+}
+
+#yes:active {
+  transform: scale(0.95); 
+}
+
+#no {
+  border: red solid 3px;
+  border-radius: 20px;
+  font-size: 27px;
+  background-color: brown;
+}
+
+#no:active {
+  transform: scale(0.95);
+}
+
+#resposta {
+  text-align: center;
+}
+
+.carousel {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #333;
+      position: relative;
+    }
+    .carousel img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+    .carousel button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    .carousel button#prev {
+      left: 10px;
+    }
+    .carousel button#next {
+      right: 10px;
+    }
